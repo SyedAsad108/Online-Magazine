@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, nav, footer {
+            background-color: #3c3c3c;
+            color: #f4f1ea;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1, nav ul, footer p {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: #f4f1ea;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 20px 0;
+        }
+        .article-card {
+            width: 90%;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            
+            transition: transform 0.3s ease;
+            
+        }
+        .article-card img {
+            max-width: 90%;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+            
+        }
+        .article-card h3{
+            font-size: 2em;
+            color: #333;
+            margin-top: 15px;
+        }
+        .article-card p{
+            font-size: 1.1em;
+            color: #555;
+        }
+        
+        footer p {
+            font-size: 0.9em;
+        }
+        .article-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3c3c3c;
+            color: #f4f1ea;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .article-card a:hover {
+            transform: scale(1.05);
+
+            background-color: #ffd700;
+        }
+        .article-card:hover {
+            transform: scale(1.05);
+        }
+        .article-card{
+            width: 90%;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            
+            transition: transform 0.3s ease;
+        }
+        .featured-article img {
+            max-width: 90%;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Website Title</h1>
+        <p>Your tagline or brief description</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ancient.html">Ancient</a></li>
+            <li><a href="#">Medieval</a></li>
+            <li><a href="#">Modern</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="article-card">
+            <h2>Julius Caesar: From Ambition to Immortality
+
+            </h2>
+            <img src="https://wallpapercave.com/wp/wp4595293.jpg" alt="Article Image">
+            <p>            Few figures in history have left a legacy as enduring and controversial as Gaius Julius Caesar. From humble beginnings to the apex of power, Caesar's life was a masterclass in ambition, strategy, and the cost of unbridled authority. Revered as a visionary leader and reviled as a tyrant, Caesar's story encapsulates the rise and fall of one of the most influential figures of ancient Rome.
+            </p>
+            <a href="caesar.html">Read More</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
